@@ -1,0 +1,124 @@
+@plomo: #999;
+@celeste: #3E9EFF;
+@celeste2: #CEE7FF;
+@separador: #CCCCCC;
+*{
+    margin:0px;
+    padding:0px;
+    font-size:14px;
+    color:#000;
+    font-family: Arial,Helvetica,sans-serif;
+}
+img{
+    border:none;
+}
+table{
+    border: 1px solid @plomo;
+    border-collapse:collapse;
+}
+#bodydentro{
+    background:url(../../application/images/loopcol1.gif) repeat-y left;
+}
+legend {
+    margin: 0px 10px;
+    padding: 0px 5px;
+}
+input[type=text],
+select,
+input[type=password]{
+    border:1px solid @plomo;
+    line-height:20px;
+    height:20px;
+    width:208px;
+}
+input[type=submit],
+input[type=button]{
+    float:right;
+    background:url(../../application/images/degradados.png) repeat-x;
+    width:110px;
+    height:20px;
+    border:1px solid @plomo;
+    cursor:pointer;
+}
+#wrapper{
+    width:100%;
+    min-height:100%;
+}
+#wcol1{
+    float:left;
+    width:194px;
+    margin-right: 1px;
+}
+#wcol2{
+    display:block;
+    overflow: hidden;
+}
+.titlemodulo{
+    display:block;
+    line-height: 30px;
+    text-align: center;
+    background:url(../../application/images/degradados.png) 0px -21px repeat-x;
+}
+#menu1{
+    li,
+    li a{
+    display:block;
+}
+li:hover a,
+li.active a{
+    color:@celeste!important;
+    padding-left:10px;
+}
+li a{
+    line-height: 22px;
+    text-decoration: none;
+}
+li{
+    padding-left: 27px;
+    background:url(../../application/images/bineta.gif) 10px 7px no-repeat;
+}
+}
+#barraapp{
+    height:50px;
+    background:url(../../application/images/degradados.png) 0px -51px repeat-x;
+}
+#barraapp #maintitle{
+    line-height: 50px;
+    color:#fff;
+    text-shadow:2px 2px @plomo;
+    font-family: Georgia,'Times New Roman',times,serif;
+    font-size: 30px;
+    padding-left:10px;
+}
+#barrasec{
+    line-height: 30px;
+    display:block;
+    padding-left: 10px;
+    /*height:30px;*/
+    background:url(../../application/images/degradados.png) 0px -21px repeat-x;
+}
+/*login*/
+#logincentro{
+    width:350px;
+    margin: 0px auto;
+    position:relative;
+    margin-top:30%;
+    border:1px solid #000;
+    padding:1px;
+}
+#logincentro #contform{
+    padding:20px;
+    overflow: hidden;
+}
+.frow{
+    display:block;
+    margin-bottom: 1px;
+}
+.frow{
+    label{
+    float:left;
+    width:100px;
+    line-height:22px;
+}
+
+}

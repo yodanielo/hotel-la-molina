@@ -1,0 +1,214 @@
+@plomo: #999;
+@celeste: #3E9EFF;
+@celeste2: #CEE7FF;
+@separador: #CCCCCC;
+
+#radio label {
+    width: 40px;
+}
+#navegador a{
+    text-decoration: none;
+    &:hover{
+        text-decoration: underline;
+}
+}
+#calendarionav *{
+    font-size:11px;
+}
+#tablares *{
+    font-size:12px;
+}
+#tablares{
+    float:left;
+    margin-top:20px;
+}
+.resth1{
+    background: @separador;
+}
+.resth2{
+    background: @celeste;
+    color:#fff;
+}
+#tablares td{
+    line-height:25px;
+}
+
+.tcellcol1 {
+    width:90px;
+    text-align: center;
+}
+.tcellcdia {
+    width:20px;
+    text-align: center;
+}
+.tcellseparator{
+    text-align: center;
+    font-weight: bold;
+    background: @separador;
+}
+.tcellfds{
+    background:@separador;
+}
+/*la clase que se agrega cuando una selda es seleccionada*/
+.sccell{
+    background: #d4ffc2!important;
+}
+#fsetfoliopagador{
+    float:left;
+    width:251px;
+    padding: 8px;
+}
+.frow{
+    display:block;
+    overflow:hidden;
+    margin-bottom:1px;
+}
+#fsetfoliopagador{
+    
+label{
+    float:left;
+    width:100px;
+    line-height: 22px;
+}
+input,
+select{
+    float:left;
+    width:145px;
+}
+}
+#fsetfoliorooms{
+    padding:8px;
+    float:left;
+    margin-left:5px;
+}
+#conthabitaciones{
+    border: 1px solid black;
+    display: block;
+    padding: 1px;
+    width: 277px;
+    height: 226px;
+    overflow: auto; 
+}
+.itemhab {
+    background: #CEE7FF;
+    display: block;
+    padding: 0px 5px;
+    overflow: hidden;
+    font-size: 12px;
+    line-height: 18px;
+    margin-bottom: 1px;
+    cursor:pointer;
+}
+#contformfolio{
+    width:580px;
+    display:block;
+    overflow: hidden;
+}
+.iconesthab {
+    width: 22px;
+    height: 22px;
+    float: right;
+    margin: 7px;
+    background: url(../../application/images/icons.png) no-repeat;
+}
+.iconesthab.bien{
+    background-position: 0px -22px;
+}
+#fsetfoliopagador #txt1 {
+    width: 120px;
+}
+.banderacli{
+    float:left;
+    width:22px;
+    height:22px;
+    margin-left: 5px;
+}
+.bwait,
+#bwait{
+    background: url(../../application/images/icons.png) no-repeat 0px -44px;
+    float:left;
+    width:22px;
+    height:22px;
+}
+#fol1{
+    width:117px!important;
+}
+#addcli {
+    float: left;
+    width: 22px;
+    height: 22px;
+    background: url(../../application/images/icons.png) no-repeat 0px -66px;
+    margin-left: 5px;
+    cursor: pointer;
+}
+#cliselected {
+    background: #CEE7FF;
+    float: left;
+    clear: both;
+    line-height: 22px;
+    width: 217px;
+    margin: 5px 10px;
+    padding: 5px 5px;
+    border: 1px solid #999;
+    border-image: initial;
+}
+#cliselected span {
+    display: block;
+    width: 162px;
+    white-space: nowrap;
+    overflow: hidden;
+}
+#delcli, #modcli {
+    float: right;
+    width: 22px;
+    height: 22px;
+    margin-left: 5px;
+    cursor: pointer;
+}
+#delcli{
+    background: url(../../application/images/icons.png) no-repeat 0px -88px;
+}
+#modcli{
+    background: url(../../application/images/icons.png) no-repeat 0px -110px;
+}
+
+#divroom fieldset{
+    padding: 10px;
+    width:254px;
+    overflow: hidden;
+    float:left;
+}
+#fsetroom{
+    margin-left: 10px;
+}
+#divroom{
+    .txtgrande label,
+    label{
+        float: left;
+        width:88px;
+    }
+    .txtgrande input,
+    .txtgrande select,
+    .txtgrande textarea,
+    input,
+    select,
+    textarea{
+        width:162px;
+    }   
+} 
+#fsetroom{
+    label{
+        width:120px;
+    }
+    input,
+    select,
+    textarea{
+        width:130px;
+    } 
+}
+.frowcheck input{
+    width:auto!important;
+}
+.frowcheck label{
+    width:254px!important;
+}
